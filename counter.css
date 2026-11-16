@@ -1,0 +1,92 @@
+body {
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('bg.jpg');
+     background-size: cover;
+     background-position: center;
+     font-family: arial, sans-serif;
+     background-color: #0d0d0d; 
+     background-repeat: no-repeat;
+}
+.Tasbeeh-Box{
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
+    border: 2px solid rgba(225, 225, 225, 0.3);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    }
+
+.Tasbeeh-Box h1{
+    color: #f6d365;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}    
+.screen{
+    background-color:rhba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+#count-display{
+    font-size: 60px;;
+}
+
+    font-weight: bold;
+    color: #f6d365;
+}
+
+button {
+    background: linear-gradient(145deg, #ffffff, #c0c0c0);
+    color: #111;
+    display: block;
+    width: 100%;
+    border: 2px solid #888;
+    padding: 10px 16px;
+    margin: 12px auto;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:active {
+    box-shadow: 0 0 25px #00f0ff, 0 0 50px #0080ff;
+    background: #e0f7ff;
+}
+
+#reset-btn{
+    background: linear-gradient(145deg, #ff4b4b, #b91c1c);
+    color: white;
+    border: 2px solid #7f1d1d;
+}
+#total-msg {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#total-display{
+    color: #f6d365
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+#text-msg {
+    color: #f6d365;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow:  2px 5px rgba(0, 0, 0, 0.9);
+}
